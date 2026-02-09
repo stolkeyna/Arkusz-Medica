@@ -1,0 +1,45 @@
+* {
+    font-family: georgia;
+}
+header, footer{
+    background-color: #1B5E20;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+article {
+    background-image: url(./pliki3/obraz1.jpg);
+    color: dimgray;
+    font-size: 150%;
+    height: 350px;
+    overflow: auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    background-color: #00E676;
+    color: #1B5E20;
+    width: 28%;
+    height: 560px;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 6px dimgray;
+}
+section:hover{
+    background-color: #10EF84;
+}
+p:hover{
+    color: black;
+}
+h2, h3{
+    color: #1B5E20;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+li{
+    list-style-image: url(./pliki3/obraz3.png);
+}
