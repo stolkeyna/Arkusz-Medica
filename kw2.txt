@@ -1,0 +1,2 @@
+-- Zapytanie 2: liczące średnią cenę abonamentów. Cena jest zaokrąglona do dwóch miejsc po przecinku oraz nadano nazwę kolumny (alias) na „Srednio_abonament”
+SELECT ROUND(AVG(abonamenty.cena),2) as "Srednio_abonament" FROM abonamenty;

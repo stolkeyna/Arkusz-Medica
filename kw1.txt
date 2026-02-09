@@ -1,0 +1,2 @@
+-- Zapytanie 1: wybierające jedynie nazwę, cenę i opis wszystkich abonamentów
+SELECT abonamenty.nazwa, abonamenty.cena, abonamenty.opis FROM abonamenty;

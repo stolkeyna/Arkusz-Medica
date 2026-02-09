@@ -1,0 +1,6 @@
+-- Zapytanie 3: wybierające jedynie nazwę abonamentu i odpowiadającą mu cechę dla abonamentu o id równym 1. Należy zastosować pełną relację n:m
+
+SELECT abonamenty.nazwa, cechy.cecha FROM abonamenty 
+JOIN szczegolyabonamentu ON abonamenty.id=szczegolyabonamentu.Abonamenty_id
+JOIN cechy ON szczegolyabonamentu.Cechy_id=cechy.id
+WHERE abonamenty.id=1;

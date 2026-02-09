@@ -1,0 +1,3 @@
+-- Zapytanie 4: wybierające jedynie nazwę i opis abonamentów, w których w opisie w dowolnym miejscu znajdują się słowa „zdrowie” albo „opieką”
+
+SELECT nazwa, opis FROM abonamenty WHERE opis LIKE "%zdrowie%" OR opis LIKE "%opieką%";
